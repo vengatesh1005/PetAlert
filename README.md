@@ -17,7 +17,7 @@
 - Once opened in Xcode, allow time for package dependencies to download.
 - After dependencies are installed, select device and click Run.
 
-##App Flow
+# App Flow
 * Start by registering as a new user. Once registered, you can log in and access all app screens as described above.
 * You can use demo credentials, log in with Email: "john@gmail.com" and Password: "john@123.
 
