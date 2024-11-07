@@ -45,6 +45,7 @@ class MapViewController: UIViewController {
         // For Loading Mapview from PetList Page.
         if isMapRequestFromPetListPage {
             getCurrentLocationButtonView.isHidden = true
+            currentLocationButton.isHidden = true
             confirmAddressButtonView.isHidden = false
             confirmButtonOutlet.setTitle("OK", for: .normal)
             currentLocationLabel.text = "Pet Lost Location : \(currentPetListData["petlostaddress"] ?? "")"
