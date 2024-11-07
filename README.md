@@ -11,7 +11,7 @@
 * Map Screen - Integrates Google Maps for selecting and displaying lost pet locations.
 * LostPets Info Screen - Displays all lost pet information. Uses Firebase Database for data storage and retrieval.
 
-#Installation & Run Insturctions
+# Installation and Run Instructions
 - [Download PetAlert](https://github.com/vengatesh1005/PetAlert) or clone the project
 - Minimum Used deployment target is iOS 17.2. so Xcode 15 and above required
 - Once opened in Xcode, allow time for package dependencies to download.
