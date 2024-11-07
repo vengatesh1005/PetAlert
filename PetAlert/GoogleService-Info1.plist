@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyDK0f4TujxauVptwn6nYoPBqUbOrrz5wuE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>386787148366</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Zervvo.PetAlert</string>
+	<key>PROJECT_ID</key>
+	<string>petalert-2354c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>petalert-2354c.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:386787148366:ios:0e60b76705e71d630ef91f</string>
+</dict>
+</plist>

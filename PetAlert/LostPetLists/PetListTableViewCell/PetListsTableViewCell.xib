@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="385" id="KGk-i7-Jjw" customClass="PetListsTableViewCell" customModule="PetAlert" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="460" height="385"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="460" height="385"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jOK-G9-Fqs">
+                        <rect key="frame" x="10" y="10" width="440" height="365"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow.down.circle.dotted" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="L5w-ta-ECC">
+                                <rect key="frame" x="10" y="38.666666666666664" width="100" height="98.666666666666657"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="h7N-EV-scx">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="120"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="100" id="n2M-7X-Ru1">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="120"/>
+                                    </constraint>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PetName" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QRw-H5-xje">
+                                <rect key="frame" x="130" y="20" width="63" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Species" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oQ3-JP-6bE">
+                                <rect key="frame" x="130" y="58" width="54.333333333333343" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9mt-vJ-JRi">
+                                <rect key="frame" x="130" y="96" width="78.666666666666686" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                </variation>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RB9-hT-Tws">
+                                <rect key="frame" x="20" y="225" width="400" height="120"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map" translatesAutoresizingMaskIntoConstraints="NO" id="wGN-0O-VSz">
+                                        <rect key="frame" x="20" y="20" width="80" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="seK-SE-38s">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                                            </constraint>
+                                            <constraint firstAttribute="height" constant="80" id="yek-8u-XSB">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                                            </constraint>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click here to see the pet's last location" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iPj-7p-aiC">
+                                        <rect key="frame" x="120" y="51" width="265.33333333333331" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        </variation>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JS1-zY-pd2">
+                                        <rect key="frame" x="0.0" y="0.0" width="400" height="120"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="iPj-7p-aiC" firstAttribute="centerY" secondItem="wGN-0O-VSz" secondAttribute="centerY" id="JFa-Xd-aLd"/>
+                                    <constraint firstItem="JS1-zY-pd2" firstAttribute="leading" secondItem="RB9-hT-Tws" secondAttribute="leading" id="NJ3-iN-HaS"/>
+                                    <constraint firstItem="wGN-0O-VSz" firstAttribute="leading" secondItem="RB9-hT-Tws" secondAttribute="leading" constant="20" id="Qtq-25-9Xe"/>
+                                    <constraint firstItem="JS1-zY-pd2" firstAttribute="top" secondItem="RB9-hT-Tws" secondAttribute="top" id="RLi-RG-w51"/>
+                                    <constraint firstItem="wGN-0O-VSz" firstAttribute="centerY" secondItem="RB9-hT-Tws" secondAttribute="centerY" id="TqT-rD-Jd8"/>
+                                    <constraint firstAttribute="trailing" secondItem="JS1-zY-pd2" secondAttribute="trailing" id="WSc-68-JzA"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="iPj-7p-aiC" secondAttribute="trailing" constant="10" id="XO9-b1-bya"/>
+                                    <constraint firstItem="iPj-7p-aiC" firstAttribute="leading" secondItem="wGN-0O-VSz" secondAttribute="trailing" constant="20" id="dAj-Sb-RzU"/>
+                                    <constraint firstAttribute="height" constant="120" id="pvw-Gf-3Rc"/>
+                                    <constraint firstAttribute="bottom" secondItem="JS1-zY-pd2" secondAttribute="bottom" id="t7L-zy-gpY"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact Details" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qPb-Ig-8XB">
+                                <rect key="frame" x="130" y="134" width="105.33333333333331" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="RB9-hT-Tws" firstAttribute="leading" secondItem="jOK-G9-Fqs" secondAttribute="leading" constant="20" id="5kG-xB-fJm"/>
+                            <constraint firstItem="9mt-vJ-JRi" firstAttribute="top" secondItem="oQ3-JP-6bE" secondAttribute="bottom" constant="20" id="EcO-zD-F59"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="qPb-Ig-8XB" secondAttribute="trailing" constant="10" id="EeV-OP-QBV"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9mt-vJ-JRi" secondAttribute="trailing" constant="10" id="HOk-ug-9pi"/>
+                            <constraint firstItem="9mt-vJ-JRi" firstAttribute="leading" secondItem="L5w-ta-ECC" secondAttribute="trailing" constant="20" id="HoT-Nk-Dhd"/>
+                            <constraint firstAttribute="trailing" secondItem="RB9-hT-Tws" secondAttribute="trailing" constant="20" id="JPQ-zo-CZh"/>
+                            <constraint firstItem="QRw-H5-xje" firstAttribute="top" secondItem="jOK-G9-Fqs" secondAttribute="top" constant="20" id="Mzj-1G-7Pc"/>
+                            <constraint firstItem="qPb-Ig-8XB" firstAttribute="leading" secondItem="L5w-ta-ECC" secondAttribute="trailing" constant="20" id="NMB-TU-hn0"/>
+                            <constraint firstItem="L5w-ta-ECC" firstAttribute="leading" secondItem="jOK-G9-Fqs" secondAttribute="leading" constant="10" id="TXI-Og-p7h"/>
+                            <constraint firstAttribute="bottom" secondItem="RB9-hT-Tws" secondAttribute="bottom" constant="20" id="Z2i-fA-hjN"/>
+                            <constraint firstItem="RB9-hT-Tws" firstAttribute="top" relation="greaterThanOrEqual" secondItem="qPb-Ig-8XB" secondAttribute="bottom" constant="20" id="ZVB-no-t1U"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="oQ3-JP-6bE" secondAttribute="trailing" constant="10" id="bx6-SE-Cqw"/>
+                            <constraint firstItem="qPb-Ig-8XB" firstAttribute="top" secondItem="9mt-vJ-JRi" secondAttribute="bottom" constant="20" id="e1h-co-8u1"/>
+                            <constraint firstItem="oQ3-JP-6bE" firstAttribute="leading" secondItem="L5w-ta-ECC" secondAttribute="trailing" constant="20" id="ezw-kD-eyA"/>
+                            <constraint firstItem="QRw-H5-xje" firstAttribute="leading" secondItem="L5w-ta-ECC" secondAttribute="trailing" constant="20" id="nue-RJ-eCC"/>
+                            <constraint firstItem="oQ3-JP-6bE" firstAttribute="top" secondItem="QRw-H5-xje" secondAttribute="bottom" constant="20" id="rsl-qc-aZQ"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="QRw-H5-xje" secondAttribute="trailing" constant="10" id="uEA-gW-XVK"/>
+                            <constraint firstItem="L5w-ta-ECC" firstAttribute="top" secondItem="QRw-H5-xje" secondAttribute="bottom" id="zby-D0-rwM"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jOK-G9-Fqs" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="7Gs-32-a9o"/>
+                    <constraint firstItem="jOK-G9-Fqs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="GFW-Pu-8yp"/>
+                    <constraint firstAttribute="trailing" secondItem="jOK-G9-Fqs" secondAttribute="trailing" constant="10" id="bUW-ic-2sx"/>
+                    <constraint firstAttribute="bottom" secondItem="jOK-G9-Fqs" secondAttribute="bottom" constant="10" id="eqU-46-fxP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="mapViewOutlet" destination="RB9-hT-Tws" id="bRP-1g-buQ"/>
+                <outlet property="mapviewButton" destination="JS1-zY-pd2" id="kPi-HQ-PUc"/>
+                <outlet property="petContactDetailsLabel" destination="qPb-Ig-8XB" id="iVx-Q4-p1k"/>
+                <outlet property="petDescriptionLabel" destination="9mt-vJ-JRi" id="Inr-n6-diE"/>
+                <outlet property="petImage" destination="L5w-ta-ECC" id="iZr-LS-HPC"/>
+                <outlet property="petNameLabel" destination="QRw-H5-xje" id="eli-gn-0bI"/>
+                <outlet property="petSpeciesLabel" destination="oQ3-JP-6bE" id="Mkv-rW-hsg"/>
+            </connections>
+            <point key="canvasLocation" x="155.72519083969465" y="139.78873239436621"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrow.down.circle.dotted" catalog="system" width="128" height="123"/>
+        <image name="map" width="512" height="512"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
